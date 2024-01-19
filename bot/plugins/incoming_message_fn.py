@@ -36,7 +36,7 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, Usern
 #from bot.helper_funcs.utils import(
 #  delete_downloads
 #)
-os.system("wget https://telegra.ph/file/059d8942b7c02750c01ab.jpg -O thumb.jpg")
+os.system("wget https://graph.org/file/de20f56d349bd2c30d92d.jpg -O thumb.jpg")
 
 #LOGS_CHANNEL = -1001283278354
 CURRENT_PROCESSES = {}
@@ -87,7 +87,7 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Channel', url='https://t.me/AnimeSpectrum')
+                    InlineKeyboardButton('Creator', url='https://t.me/AboutMe_Shadow')
                 ]
             ]
         ),
