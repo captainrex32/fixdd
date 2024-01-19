@@ -5,7 +5,7 @@
 <body>
   <div class="center-content">
     <a
-    href="https://heroku.com/deploy/">
+    href="https://heroku.com/deploy?template=https://github.com/Ashutosh15rai/fix">
       <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
     </a>
   </div>
